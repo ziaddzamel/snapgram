@@ -46,7 +46,7 @@ const Profile = () => {
                 <Image
                   w="20px"
                   h="20px"
-                  src="../public/assets/icons/edit.svg"
+                  src="/assets/icons/edit.svg"
                   style={{
                     filter: "brightness(0) invert(100%)",
                   }}
@@ -67,7 +67,7 @@ const Profile = () => {
             py={"12px"}
             px={["20px", "20px", "40px"]}
           >
-            <Image src="../public/assets/icons/posts.svg" />
+            <Image src="/assets/icons/posts.svg" />
             <Text> Posts</Text>
           </HStack>
         </Link>
@@ -79,7 +79,7 @@ const Profile = () => {
             py={"12px"}
             px={["20px", "20px", "40px"]}
           >
-            <Image src="../public/assets/icons/liked.svg" />
+            <Image src="/assets/icons/liked.svg" />
             <Text> liked </Text>
           </HStack>
         </Link>
