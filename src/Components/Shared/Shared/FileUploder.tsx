@@ -62,7 +62,7 @@ const FileUploder = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
           </Flex>
         ) : (
           <VStack>
-            <Image src="/public/assets/icons/file-upload.svg" />
+            <Image src="/assets/icons/file-upload.svg" />
             <Heading fontSize="sm">Drage Photo Here</Heading>
             <Text color="#5C5C7B" fontSize="sm">
               SVG,PNG,JPG

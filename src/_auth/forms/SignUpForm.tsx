@@ -102,7 +102,7 @@ const SignUpForm = () => {
   return (
     <Container overflow="auto">
       <VStack>
-        <Image mb="20px" src="../public/assets/images/logo.svg" />
+        <Image mb="20px" src="/assets/images/logo.svg" />
         <Heading fontSize="3xl">Creat a new account</Heading>
         <Text fontSize="md" color="#5C5C7B">
           {" "}

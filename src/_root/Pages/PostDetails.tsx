@@ -52,8 +52,7 @@ const PostDetails = () => {
                 <Link to={`/profile/${post?.creator.$id}`}>
                   <Avatar
                     src={
-                      post?.creator?.imageUrl ||
-                      "../public/assets/images/profile.png"
+                      post?.creator?.imageUrl || "/assets/images/profile.png"
                     }
                   />
                 </Link>
@@ -71,11 +70,7 @@ const PostDetails = () => {
               </HStack>
               <HStack>
                 <Link to={`/updatePost/${post?.$id}`}>
-                  <Image
-                    w="30px"
-                    h="30px"
-                    src="../public/assets/icons/edit.svg"
-                  />
+                  <Image w="30px" h="30px" src="/assets/icons/edit.svg" />
                 </Link>
               </HStack>
             </HStack>

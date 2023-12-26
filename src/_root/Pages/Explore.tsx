@@ -33,7 +33,7 @@ const Explore = () => {
         <InputLeftAddon
           bg={"#1F1F22"}
           border="none"
-          children={<Image src="../public/assets/icons/search.svg" />}
+          children={<Image src="/assets/icons/search.svg" />}
         />
         <Input
           bg="#1F1F22"

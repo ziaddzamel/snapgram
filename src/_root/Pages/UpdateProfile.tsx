@@ -77,7 +77,7 @@ const UpdateProfile = () => {
       onSubmit={form.handleSubmit(handleUpdate)}
     >
       <HStack spacing={6}>
-        <Image src="/public/assets/icons/edit.svg" />
+        <Image src="/assets/icons/edit.svg" />
         <Heading>Edit Profile</Heading>
       </HStack>
       <FormControl w="50vw">

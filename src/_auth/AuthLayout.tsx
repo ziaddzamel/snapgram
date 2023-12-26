@@ -15,7 +15,7 @@ const AuthLayout = () => {
           <Image
             objectFit="cover"
             w="50%"
-            src="../public/assets/images/side-img.svg"
+            src="/assets/images/side-img.svg"
             h="100vh"
             display={{
               base: "none",

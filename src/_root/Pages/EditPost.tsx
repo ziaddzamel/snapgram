@@ -1,4 +1,3 @@
-
 import PostForm from "../../Components/Shared/Forms/PostForm";
 import { useParams } from "react-router-dom";
 import { useGetPostById } from "../../Lib/react-query/queries";
@@ -17,7 +16,7 @@ const EditPost = () => {
   return (
     <VStack m="20px">
       <HStack my={"20px"} ml="30px" alignSelf={"flex-start"}>
-        <Image src="../public/assets/icons/add-post.svg" />
+        <Image src="/assets/icons/add-post.svg" />
         <Heading fontSize={"3xl"}>Edit Post</Heading>
       </HStack>
       <PostForm post={post} action="Update" />

@@ -89,7 +89,7 @@ const SignInForm = () => {
   return (
     <Container overflow="auto">
       <VStack>
-        <Image mb="20px" src="../public/assets/images/logo.svg" />
+        <Image mb="20px" src="/assets/images/logo.svg" />
         <Heading fontSize="3xl">Log In to your account</Heading>
       </VStack>
       <VStack

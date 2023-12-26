@@ -91,7 +91,7 @@ const Profile = () => {
             py={"12px"}
             px={["20px", "20px", "40px"]}
           >
-            <Image src="../public/assets/icons/saved.svg" />
+            <Image src="/assets/icons/saved.svg" />
             <Text> Saved</Text>
           </HStack>
         </Link>
