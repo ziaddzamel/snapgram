@@ -69,6 +69,10 @@ const UpdateProfile = () => {
 
   return (
     <VStack
+      h={{
+        base: "150vh",
+        md: "none",
+      }}
       mt="40px"
       color={"white"}
       alignItems={"flex-start"}

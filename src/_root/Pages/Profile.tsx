@@ -37,6 +37,7 @@ const Profile = () => {
             <Heading>{currentUser.username}</Heading>
             <Link to={`/update-profile/${user.id}`}>
               <HStack
+                display={user.id === currentUser.$id ? "flex" : "none"}
                 rounded={"lg"}
                 alignItems={"center"}
                 bg={"#1F1F22"}

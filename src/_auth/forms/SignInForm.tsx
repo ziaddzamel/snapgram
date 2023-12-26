@@ -77,7 +77,7 @@ const SignInForm = () => {
         navigate("/");
         console.log(user);
       } else {
-        console.log("asdasdksdmaklsdn");
+        console.log("not loggedIn");
 
         return;
       }
