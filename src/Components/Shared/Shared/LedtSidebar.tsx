@@ -46,13 +46,13 @@ const LedtSidebar = () => {
         md: "flex",
       }}
     >
-      <Image w="200px" src="../public/assets/images/logo.svg" />
+      <Image w="200px" src="/assets/images/logo.svg" />
       <HStack spacing={5}>
         <Link to={`/profile/${user.id}`}>
           <HStack spacing={5}>
             <Avatar
               size={"lg"}
-              src={user.imageUrl || "../public/assets/images/profile.png"}
+              src={user.imageUrl || "/assets/images/profile.png"}
             />
             <Flex gap="5px" direction="column" alignItems="flex-start">
               <Heading fontWeight={600} fontSize="18px">
@@ -108,7 +108,7 @@ const LedtSidebar = () => {
             onClick={() => signOut()}
           >
             <HStack spacing={1} fontSize="16px" fontWeight={600}>
-              <Image w="30px" src="/public/assets/icons/logout.svg" />
+              <Image w="30px" src="/assets/icons/logout.svg" />
               <Text fontSize="16px" fontWeight={600} ml="15px">
                 Log Out
               </Text>

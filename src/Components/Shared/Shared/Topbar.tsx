@@ -14,10 +14,12 @@ const Topbar = () => {
   }, [isSuccess]);
 
   return (
-    <Box display={{
-      base:"block",
-      md:"none"
-    }}>
+    <Box
+      display={{
+        base: "block",
+        md: "none",
+      }}
+    >
       <HStack
         w="100%"
         justifyContent="space-between"
@@ -26,15 +28,18 @@ const Topbar = () => {
         alignItems="center"
       >
         <Link to="/">
-          <Image src="../public/assets/images/logo.svg" />
+          <Image src="./assets/images/logo.svg" />
         </Link>
         <Box>
           <Button colorScheme="" onClick={() => signOut()}>
-            <Image src="../public/assets/icons/logout.svg" />
+            <Image src="/assets/icons/logout.svg" />
           </Button>
           <Link to={`/profile/${user.id}`}>
             <Avatar
-              src={user.imageUrl || "../public/assets/images/profile.png"} name={user.name} size="sm" mt="4px"
+              src={user.imageUrl || "/assets/images/profile.png"}
+              name={user.name}
+              size="sm"
+              mt="4px"
             />
           </Link>
         </Box>

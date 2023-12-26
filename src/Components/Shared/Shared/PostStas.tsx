@@ -67,8 +67,8 @@ const PostStas = ({ userId, post }: PostStatsProps) => {
         <Image
           src={`${
             checkIsLiked(likes, userId)
-              ? "/public/assets/icons/liked.svg"
-              : "/public/assets/icons/like.svg"
+              ? "/assets/icons/liked.svg"
+              : "/assets/icons/like.svg"
           }`}
           cursor="pointer"
           onClick={handelLikePost}
@@ -81,11 +81,7 @@ const PostStas = ({ userId, post }: PostStatsProps) => {
         </Box>
       ) : (
         <Image
-          src={
-            isSaved
-              ? "../public/assets/icons/saved.svg"
-              : "../public/assets/icons/save.svg"
-          }
+          src={isSaved ? "/assets/icons/saved.svg" : "/assets/icons/save.svg"}
           cursor="pointer"
           onClick={handleSavePost}
         />

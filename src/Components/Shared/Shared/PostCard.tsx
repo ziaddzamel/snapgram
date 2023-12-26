@@ -45,7 +45,7 @@ const PostCard = ({ post }: PostCardProps) => {
             <Avatar
               size={"lg"}
               src={
-                post?.creator?.imageUrl || "../public/assets/images/profile.png"
+                post?.creator?.imageUrl || "/assets/images/profile.png"
               }
             />
           </Link>
@@ -63,7 +63,7 @@ const PostCard = ({ post }: PostCardProps) => {
         <Link to={`/updatePost/${post.$id}`}>
           <Image
             display={user.id !== post.creator.$id ? "none" : "block"}
-            src="/public/assets/icons/edit.svg"
+            src="/assets/icons/edit.svg"
             w="30px"
             h="30px"
           />
